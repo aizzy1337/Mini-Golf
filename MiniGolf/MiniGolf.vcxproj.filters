@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minigolf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\button_start.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\button_ust.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\button_wyjscie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\kursor1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\kursor2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\kursor3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\map_level_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\map_level_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\map_level_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\menu_back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\napoj_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\napoj_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\napoj_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\pilka_lvl_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\pilka_lvl_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\strzalka.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\trafienie_back.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\pilka_lvl_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\tlo_ustawienia.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\PODSUMOWANIE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\czcionka.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\muzyka_lvl_1.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\odbicie.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\uderzenie.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\muzyka.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\picie.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\gra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\inicjalizacja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\kinematyka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\level_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\level_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\level_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ustawienia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\zmienne_globalne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\podsumowanie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
